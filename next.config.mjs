@@ -20,5 +20,23 @@ const config = {
     locales: ["en"],
     defaultLocale: "en",
   },
+  images: {
+    domains: ['avatars.githubusercontent.com'],
+    remotePatterns: [
+			{
+				protocol: "https",
+				hostname: "avatars.githubusercontent.com",
+				port: "",
+				pathname: "/u/68411096?v=4",
+			},
+		],
+  },
 };
 export default config;
+
+// module.exports = {
+//   images: {
+//     domains: ['avatars.githubusercontent.com'],
+//   },
+// }
+
